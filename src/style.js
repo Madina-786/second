@@ -30,6 +30,7 @@ export const layout = {
 
 export const layout1 = {
   navStyle: "flex gap-5 pt-6 font-semibold",
+  rowBase: "w-full flex flex-row justify-between text-sm font-semibold",
   heroAll:
     "bg-gray-200 flex flex-row justify-center p-5 mt-10 me-5 ms-5 rounded-md ",
   cards:
@@ -40,6 +41,12 @@ export const layout1 = {
   label: "text-black font-bold",
   sector:
     " border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none bg-gray-50 mt-3",
+};
+
+export const hero = {
+  button: "py-3 px-x border-2 border-sky-500 rounded-md",
+  h11: "text-[40px] font-bold",
+  icons: "flex flex-row font-ss",
 };
 
 export default styles;
